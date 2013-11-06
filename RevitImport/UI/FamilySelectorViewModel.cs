@@ -31,7 +31,7 @@ namespace PSImport
                 if (_createCopy != value)
                 {
                     _createCopy = value;
-                    OnPropertyChanged();
+                    OnPropertyChanged("CreateCopy");
                 }
             }
         }
@@ -45,7 +45,7 @@ namespace PSImport
         public event EventHandler SelectedFamilyChanged;  
 
         [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged(string propertyName = null)
+        protected virtual void OnPropertyChanged(string propertyName)
         {
             var handler = PropertyChanged;
             if (handler != null) 
