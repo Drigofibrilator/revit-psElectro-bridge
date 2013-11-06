@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Assembly>PSImport.dll</Assembly>
+    <Assembly>.\PS\PSImport.dll</Assembly>
     <ClientId>C33DABA4-7F0C-47D2-A008-44723A2B0092</ClientId>
     <FullClassName>RevitImport.ImportFromPS</FullClassName>
     <Text>Import from PS</Text>

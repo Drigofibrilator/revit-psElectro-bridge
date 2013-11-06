@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitImport", "RevitImport\RevitImport.csproj", "{ABD6F3DB-10CA-49B6-869E-843A16F79FF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitSerialization", "RevitSerialization\RevitSerialization.csproj", "{8398A5CE-52F2-4AEB-9B92-52B6558B31EE}"
